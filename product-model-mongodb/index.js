@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     res.send('Hello there')
 });
 
-mongoose.connect('mongodb+srv://admin:admin123@backenddb.1qkid.mongodb.net/?retryWrites=true&w=majority&appName=BackendDB')
+mongoose.connect('yourmongodbkey')
 .then(() => {
     console.log('Connected to database');
 })
